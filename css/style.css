@@ -1,0 +1,31 @@
+.light-green {
+  background-color: hsl(115, 100%, 57%);
+}
+h1 {
+  display: inline-block;
+  margin: 50px 0 50px 100;
+  font-size: 40px;
+}
+.bold {
+  font-weight: 800;
+}
+.ntua-title {
+  display: block;
+  margin: 0 0 0 100px;
+}
+.gray-section {
+  background-image: url(../img/1.png);
+  background-size: cover;
+  padding: 170px 100px;
+  margin: 63px 0 0;
+}
+.gray-section label {
+  display: block;
+}
+.gray-section input ~ label {
+  display: inline;
+}
+button {
+  background-color: hsl(0, 0%, 0%);
+  color: rgb(255, 255, 255);
+}
